@@ -1,0 +1,10 @@
+http://ninjinix.x0.com/wolfa/index.rb?vid=361&meslog=361_ready_0	index
+http://ninjinix.x0.com/wolfa/index.rb	default
+http://ninjinix.x0.com/wolfa/index.rb?vid=361&cmd=rss	default_001
+http://ninjinix.x0.com/wolfa/index.rb?vid=361&meslog=361_progress_0	default_002
+http://ninjinix.x0.com/wolfa/index.rb?vid=361&meslog=361_progress_1	default_003
+http://ninjinix.x0.com/wolfa/index.rb?vid=361&meslog=361_party_2	default_004
+http://ninjinix.x0.com/wolfa/index.rb?vid=361	default_005
+http://ninjinix.x0.com/wolfa/index.rb?vid=361&meslog=361_ready_0&mode=say	default_006
+http://ninjinix.x0.com/wolfa/index.rb?vid=361&meslog=361_ready_0&mode=whisper	default_007
+http://ninjinix.x0.com/wolfa/index.rb?vid=361&meslog=361_ready_0&mode=groan	default_008

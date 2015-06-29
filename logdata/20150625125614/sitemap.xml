@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../../sitemap.xsl" type="text/xsl" media="all"?>
+<site>
+<page file="index.html" text="人狼BBS:A A112 盆地の村" title="人狼BBS:A A112 盆地の村">
+<page file="default.html" text="" title="人狼BBS:A"/>
+<page file="default_001.html" text="rss" title="フィードを表示しています"/>
+<page file="default_002.html" text="1日目" title="人狼BBS:A A112 盆地の村"/>
+<page file="default_003.html" text="2日目" title="人狼BBS:A A112 盆地の村"/>
+<page file="default_004.html" text="3日目" title="人狼BBS:A A112 盆地の村"/>
+<page file="default_005.html" text="4日目" title="人狼BBS:A A112 盆地の村"/>
+<page file="default_006.html" text="5日目" title="人狼BBS:A A112 盆地の村"/>
+<page file="default_007.html" text="6日目" title="人狼BBS:A A112 盆地の村"/>
+<page file="default_008.html" text="7日目" title="人狼BBS:A A112 盆地の村"/>
+<page file="default_009.html" text="エピローグ" title="人狼BBS:A A112 盆地の村"/>
+<page file="default_010.html" text="終了" title="人狼BBS:A A112 盆地の村"/>
+<page file="default_011.html" text="人" title="人狼BBS:A A112 盆地の村"/>
+<page file="default_012.html" text="狼" title="人狼BBS:A A112 盆地の村"/>
+<page file="default_013.html" text="墓" title="人狼BBS:A A112 盆地の村"/>
+</page>
+</site>
