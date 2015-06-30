@@ -1,0 +1,9 @@
+index.html	true
+index.css	true
+index.dat	true
+index.png	true
+sitemap.xml	true
+sb-file2url.txt	true
+sb-url2name.txt	true
+default.html	http://ninjinix.x0.com/wolfa/index.rb?vid=306&meslog=306_ready_0
+default.css	true

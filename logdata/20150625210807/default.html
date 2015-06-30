@@ -1,0 +1,439 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="ja" xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="robots" content="noarchive">
+  <title>人狼BBS:A</title>
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="http://ninjinix.x0.com/wolfa/index.rdf">
+</head>
+<body>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody><tr><td align="center">
+
+<table border="0" cellpadding="0" cellspacing="0" width="500">
+<tbody><tr><td valign="top" align="left">
+
+<a indepth="true" name="top" href="default.html"></a>
+<div class="main">
+
+<form action="http://ninjinix.x0.com/wolfa/index.rb" method="post" class="login_form">
+<input name="cmd" value="login" type="hidden">
+<input name="cgi_param" value="&amp;#bottom" type="hidden">
+user_id : <input size="10" name="user_id" value="" type="text">
+password : <input size="10" name="password" value="" type="password">
+<input value="login" type="submit"><br>
+</form>
+
+
+
+<p>
+<strong>
+ゲームが成り立たなくなる恐れがあるため、
+参加している村の情報を、別の場所でやりとりしないで下さい。
+</strong>
+</p>
+
+<p>
+<a href="#pay">継続的なゲーム運営のために投げ銭にご協力下さい。</a>
+</p>
+
+<h2>人狼BBSとは？</h2>
+
+<p>
+ある辺境の村に、人狼がやってきた。
+人間を襲い、村を滅ぼす忌むべき存在。
+複数人でかかれば退治できるのだが、問題は奴らが人間に化けられるということだ。
+もう既に村人達の中に紛れ込んでいるかもしれない……。
+</p>
+
+<p>
+これは、<strong>村人達と人狼のかけひきを楽しめるBBS（掲示板）</strong>です。
+役柄になりきりながらも推理を働かせ、人狼を退治しましょう！
+もしあなたが人狼だったなら……全力で村人達を騙し、生き残りましょう！
+</p>
+
+<p>
+ちょっとノリがブラックなので、それを踏まえてご参加くださいね。
+</p>
+
+<h2>村のリスト</h2>
+
+<p>
+<!---
+<strong>参加希望者は、このページを一通り最後まで読んでから参加して下さい。</strong>
+--->
+人狼BBS:A の村作成は終了しました。参加希望者は以下へどうぞ。
+</p>
+
+<ul>
+<li><a href="http://ninjinia.x0.com/wolf/">人狼BBS</a></li>
+<li><a href="http://ninjinium.x0.com/wolfb/">人狼BBS:B</a></li>
+</ul>
+
+<table class="list"></table>
+
+<p>
+<a href="http://ninjinix.x0.com/wolfa/index.rb?cmd=log">終了した村の記録</a>
+</p>
+
+<h2>概要</h2>
+
+<p>
+掲示板形式で会話を進めながら、人狼を探し出し、処刑します。全ての人狼を処刑できれば村人達の勝ち、村人の数が人狼と同数以下にまで減らされてしまったら人狼の勝ちとなります。<strong>誰を処刑するかは、生き残っている村人達の投票によって決定します。</strong>
+</p>
+
+<p>
+村人の中には特殊能力を持つ者がいます。それを活用する事で、効率よく人狼を見つけ出すことができるかもしれません。<strong>特殊能力は勝敗を左右する</strong>ので、なるべく長く生き残り、村人達を勝利へ導きましょう。終了した村のログが参考になるかもしれません。
+</p>
+
+<p>
+<strong>村の状況は、その村の更新時に変わります。</strong>それまでにそれぞれの行動を決定して下さい。そして、<strong>それまでに発言がない者は突然死します。</strong>これは途中でゲームを抜けるユーザーへの対策です。
+</p>
+
+<h2>参加方法</h2>
+
+<p>
+まず、右上の入力欄から任意のユーザーIDと任意のパスワードを入力し、ログインします。<strong>そのユーザーIDが使われていなければ新たなユーザーとして登録され、既に誰かに使われていた場合にはログインに失敗します。</strong>次回からはそのパスワード以外ではログインできなくなるので、どこかにメモしておきましょう。
+（万が一に備え、ログインパスワードには他人に知られるとまずいようなものは使用しないで下さい）
+</p>
+
+<p>
+次に、参加者を募集している村に入り、エントリーします。配役と希望する能力（立場）を選択してから発言をすればエントリーとなりますが、始めての参加の場合は強制的に村人希望となります。以降は赤いメッセージの指示に従ってください。<strong>希望能力はあくまで希望ですので、その能力を得られるかは運次第です。</strong>
+</p>
+
+<h2>日程</h2>
+
+<table class="list">
+<tbody><tr>
+	<td>プロローグ</td>
+	<td>
+		8名以上のエントリーが集まれば、1日目に進みます。
+	</td>
+</tr>
+<tr>
+	<td>１日目</td>
+	<td>
+		それぞれの能力、正体がわかるようになります。<br>
+		人狼達は作戦を練るとよいでしょう。
+	</td>
+</tr>
+<tr>
+	<td>２日目以降</td>
+	<td>
+		投票により、処刑する村人を決定します。<br>
+		それぞれの能力と推理力を駆使し、勝利を目指してください。
+	</td>
+</tr>
+<tr>
+	<td>エピローグ</td>
+	<td>
+		参加者のIDと全てのログが公開されます。<br>
+		次の日まで自由に投稿が可能です。
+	</td>
+</tr>
+<tr>
+	<td>終了</td>
+	<td>ログを見ることのみ可能です。</td>
+</tr>
+</tbody></table>
+
+<h2>特殊能力</h2>
+
+<table class="list">
+<tbody><tr>
+	<td><a href="http://ninjinix.x0.com/img/villagers.gif">村人</a></td>
+	<td>
+		ありません。
+	</td>
+</tr>
+<tr>
+	<td><a href="http://ninjinix.x0.com/img/werewolf.gif">人狼</a></td>
+	<td>
+		毎夜、ひとりだけ村人を殺害できます。<br>
+		人狼同士にしか聞こえない会話が可能です。<br>
+		<strong>14人までは２匹、15人以上では３匹です。</strong>
+	</td>
+</tr>
+<tr>
+	<td><a href="http://ninjinix.x0.com/img/seer.gif">占い師</a></td>
+	<td>
+		毎夜、村人ひとりを占う事ができます。<br>
+		その村人が人狼か人間かがわかります。
+	</td>
+</tr>
+<tr>
+	<td><a href="http://ninjinix.x0.com/img/medium.gif">霊能者（9人以上）</a></td>
+	<td>
+		投票による処刑や突然死で死んだ者が、<br>
+		人狼であったか人間であったかがわかります。
+	</td>
+</tr>
+<tr>
+	<td><a href="http://ninjinix.x0.com/img/possessed.gif">狂人（10人以上）</a></td>
+	<td>
+		人狼側の人間です。<br>
+		人狼の勝利が狂人の勝利となります。<br>
+		<strong>狂人と人狼は、お互いに正体を知りません。</strong>
+	</td>
+</tr>
+<tr>
+	<td><a href="http://ninjinix.x0.com/img/bodyguard.gif">狩人（11人以上）</a></td>
+	<td>
+		毎夜、ひとりを人狼の襲撃から守ることができます。
+	</td>
+</tr>
+<tr>
+	<td><a href="http://ninjinix.x0.com/img/freemasons.gif">共有者（16人以上）</a></td>
+	<td>
+		もうひとりの共有者を知ることができます。
+	</td>
+</tr>
+</tbody></table>
+
+<h2>禁止行為</h2>
+
+<p>
+ゲームをより楽しいものにするために、以下の行為を禁止とさせて頂きます。
+</p>
+
+<ul>
+<li><strong>ゲームの途中放棄（やむをえない場合を除く）</strong></li>
+<li><strong>他の参加者を著しく不快にさせる言動</strong></li>
+<li><strong>縦読みなどの暗号の使用</strong></li>
+<li><strong>故意の突然死</strong></li>
+<li><strong>希望能力に関する発言</strong></li>
+<li><strong>CGI 出力そのままの形での引用（占い結果など）</strong></li>
+<li><strong>意図的な発言ミス</strong></li>
+<li><strong>その他、裏技っぽい言動及び行動は基本的に禁止</strong></li>
+</ul>
+<br>
+
+<h2>Ｑ＆Ａ</h2>
+
+<dl>
+<dt>ルールがいまいち理解できないんだけど……</dt>
+<dd>
+終了した村の記録を読んで、感覚をつかんで下さい。
+</dd>
+</dl>
+
+<dl>
+<dt>一回の勝負がつくまでの時間は？</dt>
+<dd>
+１週間前後です。人数が多いほど長くなりますが、２週間はかかりません。
+</dd>
+</dl>
+
+<dl>
+<dt>発言の横にある数字は何？</dt>
+<dd>
+一日の最大発言回数で、進行中にのみ適用されます。議論が過熱しすぎないための措置です。1/20 が最後の発言となり、0/20 になると発言できなくなります。
+</dd>
+</dl>
+
+<dl>
+<dt>人狼の襲撃対象が 楽天家 ゲルト しか選べない。</dt>
+<dd>
+１日目は必ず「楽天家 ゲルト」が犠牲になります。
+プレイヤーが何もできないまま死んでしまう事を避けるための措置です。
+</dd>
+</dl>
+
+<dl>
+<dt>楽天家 ゲルト が人狼や能力者だったりする事もあるの？</dt>
+<dd>
+ゲルトは、どの村でも「ただの村人」になります。
+</dd>
+</dl>
+
+<dl>
+<dt>処刑投票で最高票数が同数だった場合の処理は？</dt>
+<dd>
+最高票数になった村人のうち、ランダムでだれが処刑されるかが決定されます。
+ちなみに、人狼が襲う対象が異なった場合も、ランダムでどちらを襲うかが決定されます。
+</dd>
+</dl>
+
+<dl>
+<dt>複数の村に参加してもいいの？</dt>
+<dd>
+なんらかの原因で死亡するか、参加している村の決着がつくまで他の村には参加できません。突然死した場合は、村の状況とは関係なく、しばらくの間新規の参加ができなくなります。
+</dd>
+</dl>
+
+<dl>
+<dt>投票操作をしなかったらどうなるの？</dt>
+<dd>
+投票や襲撃など、対象を選ぶものは予めランダムで対象が決められています。変更しなければ、そのままその対象を選択したことになります。
+</dd>
+</dl>
+
+<dl>
+<dt>独り言って何？</dt>
+<dd>
+独り言チェックボックスにチェックを入れて発言すると、独り言になります。自分以外の誰にも見えない発言で、終了時に公開されます。通常の発言とは別カウントで 5 回まで使用できます。
+</dd>
+</dl>
+
+<dl>
+<dt>「直前の発言を削除（15秒以内）」とは？</dt>
+<dd>
+致命的な発言ミスをした時のための機能で、15秒以内にクリックすると直前の発言を消すことができます。発言回数は戻りません。
+</dd>
+</dl>
+
+<dl>
+<dt>狩人は自分自身を守れるの？</dt>
+<dd>
+守れません。
+</dd>
+</dl>
+
+<dl>
+<dt>このゲームを遊ぶ時の心構えは？</dt>
+<dd>
+これは村人側と人狼側のチーム戦です。個人の生き残りよりチームの勝利を優先しましょう。そして、他の参加者と共にゲームを楽しむための配慮を忘れないようにしましょう。制限された情報の中で全力を尽くすこと、これがこのゲームを楽しむ秘訣です。
+</dd>
+</dl>
+
+<h2>サポート</h2>
+
+<p>
+<a href="http://ninjinix.x0.com/chbbs/">ChannelBBS</a> の<strong>人狼チャンネル</strong>に書き込めば反応するかもです。片手間運営なので、過度な期待はしないで下さい。
+</p>
+
+<h2>ユーザーコミュニティ</h2>
+
+<p>
+</p><ul>
+<li><a href="http://www.hyuki.com/yukiwiki/wiki.cgi?%bf%cd%cf%b5BBS">
+人狼BBS まとめページ（YukiWiki）</a></li>
+<li><a href="http://wolfbbs.halfmoon.jp/">
+人狼BBS まとめサイト</a></li>
+</ul>
+<p></p>
+
+<h2><a name="pay">投げ銭</a></h2>
+
+<p>
+継続的なゲーム運営のために投げ銭にご協力下さい。１プレイ100円程度で十分です。お支払方法の詳細は <a href="http://www.nifty.com/pay/buy/">http://www.nifty.com/pay/buy/</a> に。
+</p>
+<p>
+<!--@pay／後払い：ここから-->
+</p><table border="0"><tbody>
+<tr>
+<td height="40" align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="175">
+<form method="post" action="http://pay.nifty.com/pay/servlet/pr" target="_blank"></form>
+<tbody><tr><td></td>
+<td valign="bottom" width="80" align="left">
+<select name="p"><option value="100">100円</option>
+<option value="300">300円</option>
+<option value="500">500円</option>
+</select><br>
+<input name="i" value="BFJG029944" type="hidden">
+<input value="　支払う　" name="submit" type="submit">
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+<!--@pay／後払い：ここまで-->
+
+<p></p>
+
+<h2>「人狼」とは</h2>
+
+<p>
+元々は欧米で良く知られたパーティゲームが元祖らしいです。
+「<strong>汝は人狼なりや？</strong>」や「<strong>ミラーズホロウの人狼</strong>」
+という題名で、カードゲームとしても発売されていますが、
+日本ではなかなか手に入り辛く、人数も９名からという事で遊べる機会も少ないようです。
+</p>
+
+<p>
+「<strong>汝は人狼なりや？</strong>」や「<strong>ミラーズホロウの人狼</strong>」は、
+以下のゲームショップや東急ハンズなどで手に入るかも？
+</p>
+
+<ul>
+<li><a href="http://www.mobius-games.co.jp/">
+メビウス ゲームズ</a></li>
+<li><a href="http://banesto.cside9.com/">
+ゲームストア・バネスト</a></li>
+<li><a href="http://www.ps-hiroshima.com/">
+プレイスペース広島</a></li>
+<li><a href="http://www.yellowsubmarine.co.jp/">
+イエローサブマリン</a></li>
+<li><a href="http://www.boardwalk.co.jp/">
+BOARDWALK</a></li>
+</ul>
+<br>
+
+<h2>謝辞</h2>
+
+<p>
+今回このCGIを作るに至り、これらのサイトの情報を参考にさせて頂きました。
+</p>
+
+<ul>
+<li><a href="http://www.eva.hi-ho.ne.jp/naobone/Werewolves.htm">
+ワーウルフ Werewolves</a></li>
+<li><a href="http://www1.u-netsurf.ne.jp/~hourei/game/games/lupusintabula.html">
+Lupus in Tabula 汝は人狼なりや？</a></li>
+<li><a href="http://www006.upp.so-net.ne.jp/mos/game/gm_ac_ww.htm">
+ワーウルフ 拡張カード</a></li>
+<li><a href="http://homepage2.nifty.com/OKE/jinro/jinro_rule.html">
+汝は人狼なりや？ルール</a></li>
+<li><a href="http://kubotaya.moe-nifty.com/weblog/2003/12/post_1.html">
+オンラインゲーム「汝は人狼なりや」</a></li>
+<li><a href="http://park1.wakwak.com/~aa1/okami/">
+「汝は人狼なりや？」と小一時間問い詰めたい。</a></li>
+<li><a href="http://www.davincigames.com/page_eng.cfm?sez=01&amp;gioco=lit">
+LUPUS IN TABULA Second Edition</a></li>
+<li><a href="http://www.geocities.co.jp/Playtown-Bingo/5911/bgeme05/bgeme182.html">
+ワーウルフ『汝は人狼なりや？』</a></li>
+<li><a href="http://ejf.cside.ne.jp/review/thewerewolvesofmillershollow.html">
+ミラーズホロウの人狼</a></li>
+</ul>
+
+<p>
+キャラクターやタイトル等は、路地裏萬亭の凪庵さんに描いて頂きました。
+</p>
+
+<ul>
+<li><a href="http://yoroz.age.cc/">
+ 路地裏萬亭</a></li>
+</ul>
+
+<p>
+このサイトのバナーも用意して頂きました。
+</p>
+
+<ul>
+<li><a href="http://ninjinix.x0.com/wolf/">
+ 人狼BBS</a></li>
+</ul>
+
+<p>
+ありがとうございました。
+</p>
+
+</div>
+<div class="footer">
+  WolfBBS:004 by <a href="http://homepage2.nifty.com/ninjinia/">ninjin.</a>
+</div>
+</td></tr></tbody></table>
+</td></tr></tbody></table>
+
+
+
+
+
+
+
+</body></html>
